@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Insert numerical series'
+      'submenu': [
+        { 'label': 'Run', 'command': 'insert-numerical-series:run' }
+      ]
+    ]
+  }
+]
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Insert numerical series'
+      'command': 'insert-numerical-series:run'
+    }
+  ]

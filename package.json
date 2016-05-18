@@ -1,0 +1,18 @@
+{
+  "name": "insert-numerical-series",
+  "main": "./lib/main",
+  "author": {
+    "name": "atom-community"
+  },
+  "version": "0.1.0",
+  "description": "Inserts growing numerical series on all cursor occurencies",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dundee/insert-numerical-series.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Dundee/insert-numerical-series"
+}
